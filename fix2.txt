@@ -1,0 +1,44 @@
+   4        0.129 git init
+   5        0.067 git branch -m master main
+   6        0.124 git branch
+   7        0.094 git branch
+   8        0.060 git status
+   9        0.103 git add README.md
+  10        0.129 git commit -m "Initial commit"
+  11        0.080 git checkout -b feature1
+  12        0.119 clear
+  13        0.076 git init
+  14        0.053 git branch -m master main
+  15        0.054 git status
+  16        0.059 git add README.md
+  17        0.102 git commit -m "Initial commit"
+  18        0.062 git checkout -b feature1
+  19        0.057 git add README.md
+  20        0.110 git commit -m "Add dog and replace moose with mouse"
+  21        0.075 git checkout main
+  22        0.064 git add README.md
+  23        0.151 git commit -m "Change moose to mahmut"
+  24        0.113 git merge feature1
+  25        0.089 git add README.md
+  26        0.134 git commit -m "Merge feature1"
+  27        0.091 git tag extinct 3da
+  28        0.079 git tag extinct 3da6
+  29        0.098 git reset --hard HEAD^
+  30        0.086 git checkout main
+  31        0.096 git branch -b feature2
+  32        0.084 git branch feature2
+  33        0.155 git branch
+  34        0.086 git add README.md
+  35        0.139 git commit -m "Fix uppercase"
+  36        0.089 git checkout feature2
+  37        0.099 git add fix1.txt
+  38        0.132 git commit -m "Add fix1.txt"
+  39        0.065 git add fix2.txt
+  40        0.155 git commit -m "Add fix2.txt"
+  41        0.093 git checkout main
+  42        0.143 git cherry-pick b2e52
+  43        0.182 history
+  44        0.084 git remote add origin https://github.com/Philippevial/Git-laboration1.git
+  45        2.836 git push --all origin
+  46        0.077 git push extinct origin
+  47        2.373 git push origin --tags
